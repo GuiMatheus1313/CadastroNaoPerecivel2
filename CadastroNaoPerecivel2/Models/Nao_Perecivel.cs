@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 namespace CadastroNaoPerecivel2.Models
 {
     public class Nao_Pericivel
-    {
+    {   //Criando atributo Código
         [Required(ErrorMessage = "O campo Código é obrigatório")]
         [Range(0, 1000, ErrorMessage = "O campo Código aceita de 0 a 1000")]
         [Display(Name = "Nº Código")]
