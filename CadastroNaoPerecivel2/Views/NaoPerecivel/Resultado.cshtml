@@ -1,0 +1,54 @@
+﻿@model CadastroNaoPerecivel2.Models.Nao_Pericivel
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<h1>Resultado de dados do produto</h1>
+<fieldset>
+    <legend>Dados dos campos</legend>
+
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.Codigo)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.Codigo)
+    </div>
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.Descricao)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.Descricao)
+    </div>
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.Peso)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.Peso)
+    </div>
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.Categoria)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.Categoria)
+    </div>
+
+    <div class="editor-label">
+        @Html.DisplayNameFor(model => model.ValorUni)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.ValorUni)
+    </div>
+
+    <p>@Html.ActionLink("Retornar", "Index")</p>
+</fieldset>
